@@ -5,10 +5,20 @@ class Login extends React.Component{
     render(){
         return(
             <View>
+      
+            <View>
                 <TextInput
                     onChangeText={text}
                     value=''
                 />
+            </View>
+    <View>
+                <TextInput
+                    onChangeText={text}
+                    value=''
+                />
+            </View>
+         
             </View>
         )
     }
